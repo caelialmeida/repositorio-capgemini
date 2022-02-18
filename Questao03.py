@@ -15,7 +15,7 @@ Dada uma string qualquer, desenvolva um algoritmo que encontre o número de pare
 Os anagramas nas substrings não precisam ser com substrings até o final da strings, mas precisa encontrar letras repetidas na string.
 Ex. ifa - fai (a letra "i" se repete após o "a") O contador vai até a próxima letra repetida, não significa que vai dividir a palavra em substrings de tamanhos iguais.
 """
-palavra = str(input('Sua palavra:'))
+# palavra = str(input('Sua palavra:'))
 def ContagemDeAnagramas(string):
     n = len(string)
     map = dict()
@@ -23,7 +23,7 @@ def ContagemDeAnagramas(string):
     for i in range(n): #loop pra contar o tamanho das substrings
         substring = ''
         for j in range(i, n):
-            substring = ''.join(sorted(substring + palavra[j]))
+            substring = ''.join(sorted(substring + string[j]))
             map[substring] = map.get(substring, 0)
 
             map[substring] += 1 #contagem de substrings 
@@ -34,4 +34,4 @@ def ContagemDeAnagramas(string):
         anagramas += (v*(v-1))//2 #fórmula de combinações possíveis
     return anagramas
 
-print(ContagemDeAnagramas(palavra))
+# print(ContagemDeAnagramas(palavra))
