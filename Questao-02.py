@@ -20,7 +20,6 @@ Passo 03 - Retornar quantidade de caracteres que faltam para completar 6 dígito
 #Essa questão me deixou bem confusa. Eu deveria retornar apenas a quantidade de dígitos que faltam para a senha atingir o tamanho mínimo? 
 #Por via das dúvidas, decidi fazer a questão de uma maneira MAIS completa e deixar o código disponível para consulta.
 
-
 senha = input('Digite sua senha:')
 if (len(senha)) < 6: #condição para verificar se o tamanho da senha corresponde ao mínimo exigido
 
@@ -66,7 +65,6 @@ def validar_senha(senha):
 		return val
 
 def main():
-#	senha = 'Ga2@'
 	
 	if (validar_senha(senha)):
 		print("Sua senha é válida!")
