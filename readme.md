@@ -19,6 +19,5 @@ Por: Caelí Almeida
 02. Salve os arquivos individualmente na área de trabalho.
 03. Abra o prompt de comando usando as teclas "Windows" + "R" e digitando CMD. Dê enter/ok.
 04. Digite o comando "cd desktop" e dê enter para acessar à area de trabalho.
-05. Digite "python Questao01.py" para abrir a questão 01. Isso é o que deve aparecer:
-
+05. Digite "python Questao01.py" para abrir a questão 01.
 06. Digite o nome da questão que deseja verificar, dê enter e siga as orientações na tela.
