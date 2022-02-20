@@ -25,7 +25,7 @@ Por: Caelí Almeida
 
 ## Executando testes
 
-1. Faça o download do Pytest e instale
+1. Faça o [download do Pytest e instale](https://pypi.org/project/pytest/)
 ```bash
 pip install pytest
 ```
