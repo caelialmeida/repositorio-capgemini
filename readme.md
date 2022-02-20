@@ -29,8 +29,8 @@ Por: Caelí Almeida
 ```bash
 pip install pytest
 ```
-1. Abra a pasta onde voce descompactou os arquivosdo projeto
-1. Execute os testes com o seguinte comando:
+2. Abra a pasta onde voce descompactou os arquivosdo projeto
+3. Execute os testes com o seguinte comando:
 ```bash
 python -m pytest
 ```
